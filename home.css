@@ -12,6 +12,16 @@
 
 /* NavBar Start*/
 
+#logo_home{
+    width: 25%;
+    height: 25%;
+}
+
+#espaco{
+   
+    margin: 20px;
+}
+
 #navbar{
     background: #f9f9f9;
 
@@ -51,7 +61,7 @@
 
 }
 .navbar form button {
-    background: rgb(0, 153, 255);
+    background: rgb(0, 0, 0);
     color: white;
     border: none;
 
