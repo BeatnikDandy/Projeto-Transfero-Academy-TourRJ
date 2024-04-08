@@ -6,5 +6,28 @@
 }
 
 #book{
-    background-color: rgb(3, 88, 88);
+    background-color: rgb(167, 204, 204);
+    padding: 50px;
+    font-size: 150%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 3%;
+    margin-right: 60%;
+    border-top: solid 15px yellow
 }
+
+#butao{
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
+    background-color: yellow;
+    color: black;
+}
+
+
+#h1{
+    display: inline-block;
+    margin: 0%;
+    padding: 0;
+}
+
