@@ -13,7 +13,6 @@ class  cliente(models.Model):
 class passeio(models.Model):
     id = models.AutoField(primary_key=True)
     bairro = models.TextField(max_length=100)
-    data_hora = models.TextField(max_length=100)
 
 
 class post(models.Model):

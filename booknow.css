@@ -1,3 +1,9 @@
+body{  
+    background-image: url"{% url  'cast1.jpg' %}"
+}
+
+
+
 #body{
     margin-top: -150px;
     top: 50%;

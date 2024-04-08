@@ -26,7 +26,7 @@
 <!-- Nav Bar Start -->
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-            <link rel="shortcut icon" href="home.html"
+            <link rel="shortcut icon" href="home.html">
           <img src="/street/static/imagens/WhatsApp Image 2024-03-26 at 5.01.29 PM.jpeg" alt="" id="logo_home" href="home.html">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span> <i class ="fa-solid fa-bars"></i></span>
@@ -60,7 +60,7 @@
             
             <div class="form_grupo">
                 <label for="nome" class="form_label">Name</label><br>
-                <input type="text" name="name" class="form_input" id="name" placeholder="name" required>
+                <input type="text" name="nome" class="form_input" id="name" placeholder="name" required>
             </div>
 
             <br>
@@ -288,18 +288,15 @@
                 <br>
     
                 <span class="legenda">Which tour you're interested in?</span>
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">South Zone</option>
+                    <option value="2">North Zone</option>
+                    <option value="3">Tour with artist</option>
+                    <option value="3">Workshop</option>
+                  </select>
     
-                <div class="check-btn">
-                    <input type="checkbox" class="form_new_input" id="zona sul" name="passeio" value="zona sul">
-                    <label for="zona sul" class="form_label check_label"> <span class="check_new_btn"></span> South Zone</label>
-                </div>
-    
-                <div class="check-btn">
-                    <input type="checkbox" class="form_new_input" id="zona norte" name="passeio" value="zona norte">
-                    <label for="zona norte" class="form_label check_label"><span class="check_new_btn"></span> North Zone</label>
-                </div>
-              
-                <div class="submit">
                 <br>
                   <input type="hidden" name="acao" value="enviar">
                   <button id="butao" type="submit" name="Submit"  class="btn btn-outline-dark" >Book Now</button>
