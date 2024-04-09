@@ -3,6 +3,11 @@ body{
 }
 
 
+#logo_home{
+    width: 50%;
+    height: 50%;
+}
+
 
 #body{
     margin-top: -150px;
@@ -36,4 +41,6 @@ body{
     margin: 0%;
     padding: 0;
 }
+
+
 
