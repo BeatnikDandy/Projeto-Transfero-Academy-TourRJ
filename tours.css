@@ -1,0 +1,159 @@
+body{ 
+    background-image: none;
+}
+/* NavBar Start*/
+
+#logo_home{
+    width: 23%;
+    height: 23%;
+}
+
+#espaco{
+   
+    margin: 20px;
+}
+
+#navbar{
+    background: #ffffff;
+
+
+}
+#logo{ 
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: rgb(0, 153, 255) ;
+}
+
+.navbar-toggler span{
+    color:rgb(0, 153, 255)
+}
+.navbar-nav{
+    margin-left: 20px;
+
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition:0.5 ease;
+
+
+}
+.nav-item .nav-link:hover{
+    background: rgb(0, 153, 255);
+    color: white;
+
+}
+.navbar form button {
+    background: rgb(0, 0, 0);
+    color: white;
+    border: none;
+
+}
+
+#tour_content{ 
+
+background-color: white;
+width: 100%;
+height: 700%;
+
+
+}
+
+#choose_thetour{
+font-size: 300%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+background-color: rgb(0, 195, 255);
+height: 300px;
+width: 80%;
+margin-top: 2%;
+margin-left: 10%;
+padding-top: 4%;
+
+
+
+}
+#tour_button{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-color: #000000;
+font-size: 30%;
+margin: 3%;
+border-radius: 7px;
+background-color: rgb(0, 195, 255);
+
+}
+#p_tour{ 
+    font-size: 200%;
+    margin-left: 45%;
+    margin-top: -30%;
+
+}
+#second_p_tour{ 
+    font-size: 110%;
+    margin-top: 8%;
+
+
+}
+#first_img_tour{ 
+
+margin-left: 10%;
+margin-top: 3%;
+
+
+}
+
+#footer{ 
+background-color: aliceblue;
+
+padding-left: 20%;
+padding-top: 1%;
+margin-top: 100%;
+width: 100%;
+height: 60px;
+
+
+
+
+}
+.text_contet{ 
+
+color: rgb(0, 0, 0);
+
+
+}
+
+#triped_footer_img{ 
+
+padding-left: 6%;
+
+
+}
+
+#yelp_footer_img{ 
+
+padding-left: 5%;
+
+}
+
+#insta_footer_img{
+
+padding-left: 6%;
+
+}
+
+#fb_footer_img{
+
+padding-left: 7%;
+
+
+}
+
+/* Home Section End */

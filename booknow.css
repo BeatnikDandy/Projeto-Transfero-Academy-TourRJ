@@ -1,5 +1,11 @@
 body{  
-    background-image: url"{% url  'cast1.jpg' %}"
+    background-image: url("cast1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+   
+   
 }
 
 
@@ -9,6 +15,7 @@ body{
 }
 
 
+
 #body{
     margin-top: -150px;
     top: 50%;
@@ -16,16 +23,16 @@ body{
     margin-left: -300%;
 }
 
-#book{
-    background-color: rgb(167, 204, 204);
-    padding: 50px;
-    font-size: 150%;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    margin-left: 3%;
-    margin-right: 60%;
-    border-top: solid 15px yellow
-}
+    #book{
+        background-color: rgb(167, 204, 204);
+        padding: 50px;
+        font-size: 150%;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        margin-left: 3%;
+        margin-right: 60%;
+        border-top: solid 15px yellow
+    }
 
 #butao{
     width: 50%;
