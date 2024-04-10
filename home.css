@@ -7,8 +7,8 @@ body{
 /* NavBar Start*/
 
 #logo_home{
-    width: 23%;
-    height: 23%;
+    width: 50%;
+    height: 50%;
 }
 
 #espaco{
@@ -17,7 +17,7 @@ body{
 }
 
 #navbar{
-    background: #ffffff;
+    background-color: #f7f7f7;
 
 
 }
@@ -147,6 +147,8 @@ body{
     text-align: justify;
     margin-left: 49%;
     margin-top: 13%;
+    border: 20px;
+    border-color: yellow;
     
 }
 #image_home{ 
@@ -155,7 +157,7 @@ body{
     width: auto;
     height: auto;
     margin-left: 40%;
-    margin-top: -25%;
+    margin-top: -18%;
     
     
 
@@ -195,12 +197,12 @@ body{
     transition: 0.5s;
 
 }
-#botao_home{ 
+#botao_home{
 font-size: 80%;
 margin-top: 6%;
-margin-right: 72%;
-background-color: black;
-color: white;
+margin-right: 50%;
+background-color: white;
+margin-left: 10%;
 padding: 7px;
 border-radius: 4px;
 width:8%;
@@ -209,6 +211,7 @@ width:8%;
 
 
 }
+
 #footer{ 
 background-color: aliceblue;
 
@@ -225,7 +228,7 @@ height: 60px;
 
 
 }
-.text_contet{ 
+.text_content{ 
 
 color: rgb(0, 0, 0);
 

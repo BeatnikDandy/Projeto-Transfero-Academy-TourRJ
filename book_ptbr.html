@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio street art tour</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="booknow.css">
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+    
+
+    <!--Font Awsome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--Font Awsome Cdn -->
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Google Fonts-->
+</head>
+<body>
+<!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <link rel="shortcut icon" href="home.html">
+
+            <a href="home_ptbr.html">
+          <img src="/street/static/imagens/WhatsApp Image 2024-03-26 at 5.01.29 PM.jpeg" alt="" id="logo_home" href="home.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span> <i class ="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a href="tours_ptbr.html">
+                <button type="button" id="espaco" class="btn btn-outline-dark" href="tours.html">Tours</button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="book_ptbr.html">
+                <button type="button" id="espaco" class="btn btn-outline-dark" href="book_now.html">Reserve Agora</button>
+              </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a href="book_now.html">
+              <button class="btn btn-outline-dark" type="button">EN</button>
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- Nav Bar End -->   
+
+<div id="book"> 
+    
+    <div id="h1">  <h1>Agendar</h1></div>
+    
+    <div class="container_form">
+    
+        
+        <form class="form" action="#" method="post">
+            
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Nome</label><br>
+                <input type="text" name="nome" class="form_input" id="name" placeholder="nome" required>
+            </div>
+
+            <br>
+            
+            <div class="form_grupo">
+                <label for="e-mail" class="form_label">Email</label><br>
+                <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+            </div>
+
+            <br>
+            
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Telefone</label><br>
+                <input type="text" name="telefone" class="form_input" id="phone" placeholder="telefone" required>
+            </div>
+
+            <br>
+
+            <div class="form_grupo">
+                <label for="datanascimento" class="form_label">Data de Nascimento</label><br>
+                <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required>
+            </div>
+
+            <br>
+            
+            <label for="nationality">Nacionalidade</label><br>
+            <select name="nationality">
+            
+                <option value="">-- selecione uma --</option>
+                <option value="afghan">Afegão</option>
+                <option value="albanian">Albanês</option>
+                <option value="algerian">Argelino</option>
+                <option value="american">Americano</option>
+                <option value="andorran">Andorrano</option>
+                <option value="angolan">Angolano</option>
+                <option value="antiguans">Antiguano</option>
+                <option value="argentinean">Argentino</option>
+                <option value="armenian">Armênio</option>
+                <option value="australian">Australiano</option>
+                <option value="austrian">Austríaco</option>
+                <option value="azerbaijani">Azerbaijano</option>
+                <option value="bahamian">Bahamense</option>
+                <option value="bahraini">Barenita</option>
+                <option value="bangladeshi">Bangladeshiano</option>
+                <option value="barbadian">Barbadiano</option>
+                <option value="barbudans">Barbudense</option>
+                <option value="batswana">Botsuanês</option>
+                <option value="belarusian">Bielorrusso</option>
+                <option value="belgian">Belga</option>
+                <option value="belizean">Belizeano</option>
+                <option value="beninese">Beninense</option>
+                <option value="bhutanese">Butanês</option>
+                <option value="bolivian">Boliviano</option>
+                <option value="bosnian">Bósnio</option>
+                <option value="brazilian">Brasileiro</option>
+                <option value="british">Britânico</option>
+                <option value="bruneian">Bruneano</option>
+                <option value="bulgarian">Búlgaro</option>
+                <option value="burkinabe">Burquinês</option>
+                <option value="burmese">Birmanês</option>
+                <option value="burundian">Burundiano</option>
+                <option value="cambodian">Cambojano</option>
+                <option value="cameroonian">Camaronês</option>
+                <option value="canadian">Canadense</option>
+                <option value="cape verdean">Cabo-verdiano</option>
+                <option value="central african">Centro-africano</option>
+                <option value="chadian">Chadiano</option>
+                <option value="chilean">Chileno</option>
+                <option value="chinese">Chinês</option>
+                <option value="colombian">Colombiano</option>
+                <option value="comoran">Comorense</option>
+                <option value="congolese">Congolês</option>
+                <option value="costa rican">Costarriquenho</option>
+                <option value="croatian">Croata</option>
+                <option value="cuban">Cubano</option>
+                <option value="cypriot">Cipriota</option>
+                <option value="czech">Tcheco</option>
+                <option value="danish">Dinamarquês</option>
+                <option value="djibouti">Djiboutiano</option>
+                <option value="dominican">Dominicano</option>
+                <option value="dutch">Holandês</option>
+                <option value="east timorese">Timorense</option>
+                <option value="ecuadorean">Equatoriano</option>
+                <option value="egyptian">Egípcio</option>
+                <option value="emirian">Emiradense</option>
+                <option value="equatorial guinean">Equato-guineense</option>
+                <option value="eritrean">Eritreiano</option>
+                <option value="estonian">Estoniano</option>
+                <option value="ethiopian">Etíope</option>
+                <option value="fijian">Fijiano</option>
+                <option value="filipino">Filipino</option>
+                <option value="finnish">Finlandês</option>
+                <option value="french">Francês</option>
+                <option value="gabonese">Gabonês</option>
+                <option value="gambian">Gambiano</option>
+                <option value="georgian">Georgiano</option>
+                <option value="german">Alemão</option>
+                <option value="ghanaian">Ganês</option>
+                <option value="greek">Grego</option>
+                <option value="grenadian">Granadino</option>
+                <option value="guatemalan">Guatemalense</option>
+                <option value="guinea-bissauan">Guineense-bissauense</option>
+                <option value="guinean">Guineano</option>
+                <option value="guyanese">Guianense</option>
+                <option value="haitian">Haitiano</option>
+                <option value="herzegovinian">Herzegoviniano</option>
+                <option value="honduran">Hondurenho</option>
+                <option value="hungarian">Húngaro</option>
+                <option value="icelander">Islandês</option>
+                <option value="indian">Indiano</option>
+                <option value="indonesian">Indonésio</option>
+                <option value="iranian">Iraniano</option>
+                <option value="iraqi">Iraquiano</option>
+                <option value="irish">Irlandês</option>
+                <option value="israeli">Israelense</option>
+                <option value="italian">Italiano</option>
+                <option value="ivorian">Marfinense</option>
+                <option value="jamaican">Jamaicano</option>
+                <option value="japanese">Japonês</option>
+                <option value="jordanian">Jordaniano</option>
+                <option value="kazakhstani">Cazaque</option>
+                <option value="kenyan">Queniano</option>
+                <option value="kittian and nevisian">Kittitiano e Nevisiano</option>
+                <option value="kuwaiti">Kuwaitiano</option>
+                <option value="kyrgyz">Quirguiz</option>
+                <option value="laotian">Laosiano</option>
+                <option value="latvian">Letão</option>
+                <option value="lebanese">Libanês</option>
+                <option value="liberian">Liberiano</option>
+                <option value="libyan">Líbio</option>
+                <option value="liechtensteiner">Liechtensteiniano</option>
+                <option value="lithuanian">Lituano</option>
+                <option value="luxembourger">Luxemburguês</option>
+                <option value="macedonian">Macedônio</option>
+                <option value="malagasy">Malgaxe</option>
+                <option value="malawian">Malauiano</option>
+                <option value="malaysian">Malaio</option>
+                <option value="maldivan">Maldiviano</option>
+                <option value="malian">Maliense</option>
+                <option value="maltese">Maltês</option>               
+                <option value="marshallese">Marshallino</option>
+                <option value="mauritanian">Mauritano</option>
+                <option value="mauritian">Mauriciano</option>
+                <option value="mexican">Mexicano</option>
+                <option value="micronesian">Micronésio</option>
+                <option value="moldovan">Moldávio</option>
+                <option value="monacan">Monegasco</option>
+                <option value="mongolian">Mongol</option>
+                <option value="moroccan">Marroquino</option>
+                <option value="mosotho">Lesotense</option>
+                <option value="motswana">Motswaniano</option>
+                <option value="mozambican">Moçambicano</option>
+                <option value="namibian">Namibiano</option>
+                <option value="nauruan">Nauruano</option>
+                <option value="nepalese">Nepalês</option>
+                <option value="new zealander">Neozelandês</option>
+                <option value="ni-vanuatu">Ni-vanuatense</option>
+                <option value="nicaraguan">Nicaraguense</option>
+                <option value="nigerien">Nigerino</option>
+                <option value="north korean">Norte-coreano</option>
+                <option value="northern irish">Irlandês do Norte</option>
+                <option value="norwegian">Norueguês</option>
+                <option value="omani">Omanense</option>
+                <option value="pakistani">Paquistanês</option>
+                <option value="palauan">Palauense</option>
+                <option value="panamanian">Panamenho</option>
+                <option value="papua new guinean">Papuásio</option>
+                <option value="paraguayan">Paraguaio</option>
+                <option value="peruvian">Peruano</option>
+                <option value="polish">Polonês</option>
+                <option value="portuguese">Português</option>
+                <option value="qatari">Qatariano</option>
+                <option value="romanian">Romeno</option>
+                <option value="russian">Russo</option>
+                <option value="rwandan">Ruandês</option>
+                <option value="saint lucian">São-lucense</option>
+                <option value="salvadoran">Salvadorenho</option>
+                <option value="samoan">Samoano</option>
+                <option value="san marinese">São-marinhense</option>
+                <option value="sao tomean">Santomense</option>
+                <option value="saudi">Saudita</option>
+                <option value="scottish">Escocês</option>
+                <option value="senegalese">Senegalês</option>
+                <option value="serbian">Sérvio</option>
+                <option value="seychellois">Seychelense</option>
+                <option value="sierra leonean">Serra-leonês</option>
+                <option value="singaporean">Singapuriano</option>
+                <option value="slovakian">Eslovaco</option>
+                <option value="slovenian">Esloveno</option>
+                <option value="solomon islander">Salomonense</option>
+                <option value="somali">Somali</option>
+                <option value="south african">Sul-africano</option>
+                <option value="south korean">Sul-coreano</option>
+                <option value="spanish">Espanhol</option>
+                <option value="sri lankan">Sri-lankês</option>
+                <option value="sudanese">Sudanês</option>
+                <option value="surinamer">Surinamês</option>
+                <option value="swazi">Suazi</option>
+                <option value="swedish">Sueco</option>
+                <option value="swiss">Suíço</option>
+                <option value="syrian">Sírio</option>
+                <option value="taiwanese">Taiwanês</option>
+                <option value="tajik">Tadjique</option>
+                <option value="tanzanian">Tanzaniano</option>
+                <option value="thai">Tailandês</option>
+                <option value="togolese">Togolês</option>
+                <option value="tongan">Tongano</option>
+                <option value="trinidadian or tobagonian">Trinitário ou Tobagoniano</option>
+                <option value="tunisian">Tunisiano</option>
+                <option value="turkish">Turco</option>
+                <option value="tuvaluan">Tuvaluano</option>
+                <option value="ugandan">Ugandense</option>
+                <option value="ukrainian">Ucraniano</option>
+                <option value="uruguayan">Uruguaio</option>
+                <option value="uzbekistani">Uzbeque</option>
+                <option value="venezuelan">Venezuelano</option>
+                <option value="vietnamese">Vietnamita</option>
+                <option value="welsh">Galês</option>
+                <option value="yemenite">Iemenita</option>
+                <option value="zambian">Zambiano</option>
+                <option value="zimbabwean">Zimbabuano</option>
+                </select>
+    
+            <div class="form_grupo">
+
+                <br>
+    
+                <span class="legenda">Qual tour te interessou?</span>
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecione uma opção</option>
+                    <option value="1">Zona Sul</option>
+                    <option value="2">Zona Norte</option>
+                    <option value="3">Tour com Artista</option>
+                    <option value="3">Workshop</option>
+                  </select>
+    
+                <br>
+                  <input type="hidden" name="acao" value="enviar">
+                  <button id="butao" type="submit" name="Submit"  class="btn btn-outline-dark">Agendar</button>
+                
+                </div>
+        </form>
+    
+    </div>
+
+  </div>
+
+  <div id="footer"><strong>Contato:   +55 21 99762 8083    |    riostreetarttour@gmail.com</strong> 
+    
+    <a href="https://www.facebook.com/riostreetarttour">  
+    <img src="fb_ic.png" alt="" id="fb_footer_img">
+    </a>
+    <a href="https://www.instagram.com/riostreetarttour/">
+    <img src="insta_ic.png" alt="" id="insta_footer_img">
+    </a>
+    <a href="https://www.yelp.com/biz/rio-street-art-tour-rio-de-janeiro">
+    <img src="yelp_ic.png" alt="" id="yelp_footer_img">
+    </a>
+    <a href="https://www.tripadvisor.com/Attraction_Review-g303506-d8445849-Reviews-Rio_Street_Art_Tour-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html">
+    <img src="tripad_ic.png" alt="" id="triped_footer_img">
+    </a>
+    
+  
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

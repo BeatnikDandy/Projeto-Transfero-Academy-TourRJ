@@ -4,8 +4,8 @@ body{
 /* NavBar Start*/
 
 #logo_home{
-    width: 23%;
-    height: 23%;
+    width: 50%;
+    height: 50%;
 }
 
 #espaco{
@@ -14,7 +14,7 @@ body{
 }
 
 #navbar{
-    background: #ffffff;
+    background-color: #f7f7f7;
 
 
 }
@@ -69,9 +69,10 @@ height: 700%;
 
 #choose_thetour{
 font-size: 300%;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: sans-serif;
 text-align: center;
 background-color: rgb(0, 195, 255);
+border-radius: 15px;
 height: 300px;
 width: 80%;
 margin-top: 2%;
@@ -98,14 +99,14 @@ background-color: rgb(0, 195, 255);
 }
 #second_p_tour{ 
     font-size: 110%;
-    margin-top: 8%;
+    margin-top: 10%;
 
 
 }
 #first_img_tour{ 
 
 margin-left: 10%;
-margin-top: 3%;
+margin-top: 15%;
 
 
 }
