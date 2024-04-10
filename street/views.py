@@ -17,4 +17,4 @@ class cliente(request):
 
 
 def checkbox(request):
-    ciente.
+    cliente.

@@ -4,11 +4,25 @@ body{
     
 }
 
+.banner{
+    background-color: #f7f7f7;
+}
+
 /* NavBar Start*/
 
 #logo_home{
     width: 50%;
     height: 50%;
+}
+
+#caixa{
+    border: 5px;
+    padding: 5%;
+}
+
+#caixa2{
+    border: 5px solid yellow;
+    padding: 5%;
 }
 
 #espaco{
@@ -82,6 +96,9 @@ body{
     
 }
 
+#saibamais{
+    margin-left: 5%;
+}
 
 .home.section h1{
     color: rgb(0, 0, 0);
@@ -152,12 +169,8 @@ body{
     
 }
 #image_home{ 
-    width: 200% ;
-    height: 100%;
-    width: auto;
-    height: auto;
-    margin-left: 40%;
-    margin-top: -18%;
+
+    margin-top: 5%;
     
     
 
