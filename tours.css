@@ -4,7 +4,7 @@ body{
 /* NavBar Start*/
 
 #logo_home{
-    width: 23%;
+    width: 50%;
     height: 23%;
 }
 
@@ -67,16 +67,21 @@ height: 700%;
 
 }
 
-#choose_thetour{
+#choose_thetour { 
+    
 font-size: 300%;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 text-align: center;
-background-color: rgb(0, 195, 255);
+background-color: rgb(125, 210, 236);
 height: 300px;
 width: 80%;
 margin-top: 2%;
 margin-left: 10%;
-padding-top: 4%;
+padding-top: 90px;
+
+
+
 
 
 
@@ -84,10 +89,12 @@ padding-top: 4%;
 #tour_button{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 border-color: #000000;
-font-size: 30%;
+font-size: 25%;
+padding: 10px;
 margin: 3%;
 border-radius: 7px;
-background-color: rgb(0, 195, 255);
+background-color: rgb(125, 210, 236);
+width: 15%;
 
 }
 #p_tour{ 
@@ -98,7 +105,7 @@ background-color: rgb(0, 195, 255);
 }
 #second_p_tour{ 
     font-size: 110%;
-    margin-top: 8%;
+    margin-top: 12%;
 
 
 }
@@ -109,7 +116,40 @@ margin-top: 3%;
 
 
 }
+#second_img_tour{ 
 
+    margin-left: 10%;
+    margin-top: 8%;
+
+
+
+}
+#thrid_p_tour{ 
+
+
+    font-size: 100%;
+    
+    margin-right: 500px;
+    margin-top: -50%;
+
+
+
+
+}
+#fourth_p_tour{ 
+    
+    margin-top: 6%;
+
+
+}
+.p_tour{ 
+    margin-top: -40%;
+    border-top: 40px;
+    padding-top: 100px;
+   
+
+
+}
 #footer{ 
 background-color: aliceblue;
 
