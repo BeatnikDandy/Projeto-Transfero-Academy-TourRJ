@@ -13,8 +13,5 @@ class cliente(request):
     cliente.telefone = request.POST.get('telefone')
     cliente.datanascimento = request.POST.get( 'datanascimento' )
     cliente.nacionalidade = request.POST.get('nationality')
+    cliente.interesse = request.POST.getList('interesse')
     cliente.salvar()
-
-
-def checkbox(request):
-    cliente.

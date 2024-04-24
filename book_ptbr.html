@@ -29,7 +29,7 @@
             <link rel="shortcut icon" href="home.html">
 
             <a href="home_ptbr.html">
-          <img src="/street/static/imagens/WhatsApp Image 2024-03-26 at 5.01.29 PM.jpeg" alt="" id="logo_home" href="home.html">
+          <img src="/street/static/imagens/WhatsApp Image 2024-03-26 at 5.01.29 PM.jpeg" alt="" id="logo_home" href="home_ptbr.html">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span> <i class ="fa-solid fa-bars"></i></span>
@@ -38,12 +38,12 @@
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a href="tours_ptbr.html">
-                <button type="button" id="espaco" class="btn btn-outline-dark" href="tours.html">Tours</button>
+                <button type="button" id="espaco" class="btn btn-outline-dark" href="tours_ptbr.html">Tours</button>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="book_ptbr.html">
-                <button type="button" id="espaco" class="btn btn-outline-dark" href="book_now.html">Reserve Agora</button>
+                <button type="button" id="espaco" class="btn btn-outline-dark" href="book_ptbr.html">Reserve Agora</button>
               </a>
               </li>
             </ul>
@@ -298,13 +298,30 @@
     
                 <span class="legenda">Qual tour te interessou?</span>
 
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Selecione uma opção</option>
-                    <option value="1">Zona Sul</option>
-                    <option value="2">Zona Norte</option>
-                    <option value="3">Tour com Artista</option>
-                    <option value="3">Workshop</option>
-                  </select>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Zona Sul
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Zona Norte
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Tour com o artista
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Workshop
+                  </label>
+                </div>
     
                 <br>
                   <input type="hidden" name="acao" value="enviar">
@@ -320,16 +337,16 @@
   <div id="footer"><strong>Contato:   +55 21 99762 8083    |    riostreetarttour@gmail.com</strong> 
     
     <a href="https://www.facebook.com/riostreetarttour">  
-    <img src="fb_ic.png" alt="" id="fb_footer_img">
+    <img src="/street/static/imagens/fb_ic.png" alt="" id="fb_footer_img">
     </a>
     <a href="https://www.instagram.com/riostreetarttour/">
-    <img src="insta_ic.png" alt="" id="insta_footer_img">
+    <img src="/street/static/imagens/insta_ic.png" alt="" id="insta_footer_img">
     </a>
     <a href="https://www.yelp.com/biz/rio-street-art-tour-rio-de-janeiro">
-    <img src="yelp_ic.png" alt="" id="yelp_footer_img">
+    <img src="/street/static/imagens/yelp_ic.png" alt="" id="yelp_footer_img">
     </a>
     <a href="https://www.tripadvisor.com/Attraction_Review-g303506-d8445849-Reviews-Rio_Street_Art_Tour-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html">
-    <img src="tripad_ic.png" alt="" id="triped_footer_img">
+    <img src="/street/static/imagens/tripad_ic.png" alt="" id="triped_footer_img">
     </a>
     
   

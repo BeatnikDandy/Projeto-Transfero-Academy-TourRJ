@@ -1,7 +1,11 @@
-body{ 
-    background-image: none;
+body{
+    background-image: url("background_home.jpg");
+    background-attachment: fixed;
+    
 }
 /* NavBar Start*/
+
+
 
 #logo_home{
     width: 50%;
@@ -58,6 +62,24 @@ body{
 
 }
 
+#caixa{
+    padding-left: 20%;
+    border: 5px;
+    padding: 5%;
+    background-color: #f7f7f7;
+}
+
+#book{
+    background-color: white;
+    padding: 50px;
+    font-size: 150%;
+    margin-top: 30%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+  
+    border-top: solid 15px yellow
+}
+
 #tour_content{ 
 
 background-color: white;
@@ -65,6 +87,9 @@ width: 100%;
 height: 700%;
 }
 
+#img{
+    margin-left: 20px;
+}
 
 #choose_thetour { 
     
@@ -73,41 +98,36 @@ font-family: sans-serif;
 text-align: center;
 background-color: rgb(0, 195, 255);
 border-radius: 15px;
-height: 300px;
-width: 80%;
-margin-top: 2%;
-margin-left: 10%;
-padding-top: 90px;
-
-
-
-
-
+height: 400px;
+width: 100%;
+padding-top: 70px;
+color: azure;
 
 }
+
+
+
 #tour_button{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border-color: #000000;
+border-color: white;
 font-size: 25%;
 padding: 10px;
 margin: 3%;
 border-radius: 7px;
-background-color: rgb(125, 210, 236);
 width: 15%;
+color: white;
 
 }
 #p_tour{ 
-    font-size: 200%;
-    margin-left: 45%;
-    margin-top: -30%;
+    font-size: 150%;
 
 }
 #second_p_tour{ 
-    font-size: 110%;
-    margin-top: 10%;
-
-
+    font-size: 100%;
+    
 }
+
+
 #first_img_tour{ 
 
 margin-left: 10%;
